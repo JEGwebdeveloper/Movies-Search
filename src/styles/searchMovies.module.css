@@ -1,0 +1,60 @@
+.head{
+   display: flex;
+   flex-direction: column;
+    font-family: "poppins", sans-serif;
+    background-image: url(../../public/banner.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+    height: 200px;
+    
+}
+
+.h1{
+    margin: 0;
+    color: rgb(255, 166, 0);
+    text-align: center;
+}
+
+.input{
+    font-family: "poppins", sans-serif;
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8rem;
+    border-radius: 20px;
+    border: 1px solid #ff9500;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.bodyy{
+    background-color: black;
+}
+
+
+.button{
+    cursor: pointer;
+    font-family: "poppins", sans-serif;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    transition: background-color 250ms;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.9); /* Cambiamos el color de fondo en hover */
+    box-shadow: 0 0 20px rgba(255, 128, 0, 1); /* Agregamos el resplandor blanco detrás del botón en hover */
+}
+
+.load{
+   
+   
+   box-shadow: 0 0 20px rgba(255, 128, 0, 1);
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: "poppins", sans-serif;
+    text-transform: uppercase;
+}

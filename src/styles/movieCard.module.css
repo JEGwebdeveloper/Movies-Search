@@ -1,0 +1,17 @@
+.card{
+    padding: 0 20px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    border: 2px solid rgb(255, 128, 0);
+    font-family: "poppins", sans-serif;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    
+}
